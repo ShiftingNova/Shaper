@@ -27,7 +27,7 @@ def line(amount):
         i+=1
 shape = str(input("Enter shape to display:\n"))
 tile = str(input("Enter arrow character:\n"))
-row = int(input("Enter row-area height:\n"))
+row = int(input("Enter row-area height:\n\n"))
 if shape == "house":
     up(tile)
     line(row)
