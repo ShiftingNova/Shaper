@@ -36,5 +36,7 @@ elif shape =="plumbbob":
     line(row)
     down(tile)
 elif shape=="hourglass":
+    line(row)
     down(tile)
     up(tile)
+    line(row)
